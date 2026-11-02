@@ -47,7 +47,7 @@ public enum JitMethod: String, CaseIterable, Sendable {
         switch self {
         case .builtIn: "Built-in"
         case .stikDebug: "StikDebug"
-        case .external: "Another app"
+        case .external: "External (Strata/LC)"
         }
     }
 
@@ -56,7 +56,7 @@ public enum JitMethod: String, CaseIterable, Sendable {
         switch self {
         case .builtIn: "Playport's own helper"
         case .stikDebug: "Play opens StikDebug"
-        case .external: "Play waits for it"
+        case .external: "Uses an already-attached debugger"
         }
     }
 
