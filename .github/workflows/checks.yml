@@ -4,7 +4,6 @@
 # Local build/device gates are separate (docs/BUILDING.md).
 name: checks
 on:
-  workflow_dispatch:
   push:
   pull_request:
 permissions:
